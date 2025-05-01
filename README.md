@@ -1,4 +1,4 @@
-### VoteChain - A Decentralized Voting Platform on Ethereum Blockchain 🗳️
+![image](https://github.com/user-attachments/assets/d7e3433a-a87c-491d-84bc-1abff458d847)### VoteChain - A Decentralized Voting Platform on Ethereum Blockchain 🗳️
 
 VoteChain is an innovative and secure decentralized voting system built on the Ethereum blockchain. This platform is designed to ensure transparency, trust, and immutability in the voting process while maintaining voter anonymity. By leveraging blockchain technology, VoteChain eliminates fraud and guarantees tamper-proof election records.
 
@@ -131,15 +131,19 @@ Follow these steps to set up the VoteChain system:
 
 ## Screenshots 📸
 
-![Login Page](#)  
-![Admin Page](#)  
-![Voter Page](#)
+![Login Page]
+![image](https://github.com/user-attachments/assets/a9dab4ae-a917-4d8a-8cbc-1c564d1176e0)
+
+![Admin Page](![image](https://github.com/user-attachments/assets/113f1f10-2eba-4e06-b3e8-a4e4fc4281d8)
+)  
+![Voter Page](![image](https://github.com/user-attachments/assets/dd7d0e15-6912-4645-9b89-5b85da30b710)
+)
 
 ---
 
 ## License ⚖️
 
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code while retaining the original copyright notice. For detailed licensing information, see the [LICENSE](blob/main/LICENSE) file.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code while retaining the original copyright notice. For detailed licensing information, see the [[LICENSE](https://github.com/Kirankumarvel/VoteChain/blob/main/LICENSE)] file.
 
 ---
 
