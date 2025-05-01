@@ -134,8 +134,8 @@ Follow these steps to set up the VoteChain system:
 ![Login Page]
 ![image](https://github.com/user-attachments/assets/a9dab4ae-a917-4d8a-8cbc-1c564d1176e0)
 
-![Admin Page](![image](https://github.com/user-attachments/assets/113f1f10-2eba-4e06-b3e8-a4e4fc4281d8)
-)  
+![Admin Page](![image](https://github.com/user-attachments/assets/2a11e297-62fa-41dd-b68a-d57c162222b3)
+
 ![Voter Page](![image](https://github-production-user-asset-6210df.s3.amazonaws.com/22188882/439541269-6768e029-c0c6-4ea8-bb1d-5f179efbceb6.png)
 
 )
