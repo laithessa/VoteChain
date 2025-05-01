@@ -1,4 +1,4 @@
-  # Import required modules
+# Import required modules
 import dotenv
 import os
 import mysql.connector
@@ -32,10 +32,10 @@ app.add_middleware(
 # Connect to the MySQL database
 try:
     cnx = mysql.connector.connect(
-        user=os.environ['MYSQL_USER'],
-        password=os.environ['MYSQL_PASSWORD'],
-        host=os.environ['MYSQL_HOST'],
-        database=os.environ['MYSQL_DB'],
+        user=os.environ.get('MYSQL_USER'),            # Fetch username from environment variables
+        password=os.environ.get('MYSQL_PASSWORD'),    # Fetch password from environment variables
+        host=os.environ.get('MYSQL_HOST'),            # Fetch host from environment variables
+        database=os.environ.get('MYSQL_DB'),          # Fetch database name from environment variables
     )
     cursor = cnx.cursor()
 except mysql.connector.Error as err:
@@ -70,7 +70,11 @@ async def login(request: Request, voter_id: str, password: str):
     role = await get_role(voter_id, password)
 
     # Assuming authentication is successful, generate a token
-    token = jwt.encode({'password': password, 'voter_id': voter_id, 'role': role}, os.environ['SECRET_KEY'], algorithm='HS256')
+    token = jwt.encode(
+        {'password': password, 'voter_id': voter_id, 'role': role},
+        os.environ.get('SECRET_KEY'),                 # Fetch secret key from environment variables
+        algorithm='HS256'
+    )
 
     return {'token': token, 'role': role}
 
