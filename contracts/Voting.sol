@@ -30,7 +30,7 @@ contract Voting {
    
        require(candidateID > 0 && candidateID <= countCandidates);
 
-       //daha önce oy kullanmamıs olmalı
+       //must not have voted before
        require(!voters[msg.sender]);
               
        voters[msg.sender] = true;
@@ -60,3 +60,4 @@ contract Voting {
       return (votingStart,votingEnd);
     }
 }
+

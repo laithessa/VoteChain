@@ -7,36 +7,38 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 60vh;
-    background: url('../assets/eth5.jpg') no-repeat center center fixed;
+    /* background: url('../assets/eth5.jpg') no-repeat center center fixed; */
     background-size: cover;
+    background-color: #f4e6ff;
   }
   
   .container {
     width: 750px;
+    background-color: rgb(129 130 255 / 48%);
     max-width: 900px;
-    background-color: rgba(0, 0, 0, 0.650);
     padding: 40px;
     padding-bottom: 2%;
     padding-top: 2%;
     border-radius: 5px;
     box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.1);
     text-align: center;
+    margin-top: 150px;
   }
   
   h1 {
     font-size: 32px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 30px;
   }
 
   h2 {
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 25px;
   }
   
   h3 {
-    color: #ffffff;
+    color: #000000;
   }
 
   p {
@@ -46,7 +48,7 @@ body {
   .table {
     width: 100%;
     margin-bottom: 20px;
-    background-color: rgba(124, 123, 123, 0.65);
+    background-color: #000000;
     border-radius: 5px;
     border-collapse: separate;
     border-spacing: 25px;
@@ -66,9 +68,9 @@ body {
   #voteButton {
     width: 40%;
     padding: 12px;
-    background-color: #198a7b;
+    background-color: #000000;
     color: #ffffff;
-    border: none;
+    border: 1px solid #000000;
     border-radius: 5px;
     font-size: 19px;
     cursor: pointer;
@@ -76,7 +78,9 @@ body {
   }
   
   #voteButton:hover {
-    background-color: #44afa1;
+    background-color: #00000000;
+    border: 1px solid #000000;
+    transition: background-color 0.3s ease;
   }
   
   #voteButton:focus {
@@ -98,4 +102,42 @@ body {
       width: 90%;
     }
   }
-  
+
+  .cus-vote {
+    position: absolute;
+    top:60px;
+   }
+
+   p#accountAddress {
+    color: #000000;
+}
+
+
+.live-indicator {
+  font-size: 30px; /* Large font size */
+  color: red; /* Red color for visibility */
+  font-weight: bold; /* Bold text */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.live-indicator h4 {
+  margin: 15px 30px 30px;
+}
+
+
+
+.live-indicator::marker {
+  animation: blinkText 0.5s infinite alternate;
+  font-size: 40px;
+
+}
+
+@keyframes blinkText {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/1.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/registration.css">
+</head>
+
+<body>
+  <h1 class="text-center text-primary">Decentralized Voting Using Ethereum Blockchain</h1>
+  
+  <h2>Register Voters</h2>
+  
+  <p>Secure and transparent voting using Ethereum Blockchain.</p>
+  <div class="live-indicator">[LIVE]</div>
+  <br>
+  
+  <div class="container mt-5">
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="voter_id"><h3>Voter ID</h3></label>
+        <input type="text" class="form-control" id="voter_id" name="voter_id" placeholder="Voter ID" required>
+      </div>
+      <div class="form-group">
+        <label for="role"><h3>Role</h3></label>
+        <input type="text" class="form-control" id="role" name="role" placeholder="Role" required>
+      </div>
+      <div class="form-group">
+        <label for="name"><h3>Name</h3></label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+      </div>
+      <div class="form-group">
+        <label for="password"><h3>Password</h3></label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+      </div>
+      <div class="form-group">
+        <label for="dob"><h3>Date of Birth</h3></label>
+        <input type="date" class="form-control" id="dob" name="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="gender"><h3>Gender</h3></label>
+        <input type="text" class="form-control" id="gender" name="gender" placeholder="Gender" required>
+      </div>
+      <div class="form-group">
+        <label for="ph_number"><h3>Phone Number</h3></label>
+        <input type="tel" class="form-control" id="ph_number" name="ph_number" placeholder="Phone Number" required>
+      </div>
+      <div class="form-group">
+        <label for="email_ID"><h3>Email ID</h3></label>
+        <input type="email" class="form-control" id="email_ID" name="email_ID" placeholder="Email ID" required>
+      </div>
+      <button type="submit" class="btn btn-primary"><b>Register</b></button>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/1.0.0/js/bootstrap.min.js"></script>
+  <script src="../js/registration.js" type="module"></script>
+</body>
+
+</html>

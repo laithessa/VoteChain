@@ -1,3 +1,11 @@
-node_modules
-build
+# Ignore Node.js dependencies and build artifacts
+node_modules/
+build/
 package-lock.json
+
+# Optional standard ignores
+.env
+*.log
+.DS_Store
+dist/
+coverage/

@@ -49,6 +49,7 @@ except mysql.connector.Error as err:
 # Define the authentication middleware
 async def authenticate(request: Request):
     try:
+        print('#### inside authenticate')
         api_key = request.headers.get('authorization').replace("Bearer ", "")
         cursor.execute("SELECT * FROM voters WHERE voter_id = %s", (api_key,))
         if api_key not in [row[0] for row in cursor.fetchall()]:

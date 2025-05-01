@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,9 +12,9 @@
   </head>
   <body>
     <div id="head" class="text-center">
-      <h3 align="center">VoteChain | Voting Page</h3>
-      <h4 align="center"> <li class="live-indicator">LIVE</li></h4  >
-      <h3 align="center">Voting Dates: <span id="dates"></span></h3>
+      <h1 class="text-center">Decentralized Voting Using Ethereum Blockchain</h1>
+      <h2 class="text-center">Welcome for Voting</h2> 
+      <h3 class="text-center">Voting Dates: <span id="dates"></span></h3>
       <br/> 
     </div>
     <div id="candidate" class="container"> 
@@ -26,9 +28,9 @@
         </thead>
         <tbody id="boxCandidate"></tbody>
       </table>
-      
+      <br/>
       <div id="vote">
-        <p>Please select a candidate and click the Vote button to cast your vote.</p>
+        <p>Please select one of the candidates and click the vote button.</p>
         <button id="voteButton" class="btn btn-primary" onclick="App.vote()" disabled>Vote</button>
         <div id="msg"></div>
   
@@ -44,14 +46,8 @@
     <div id="account">
           <p id="accountAddress" class="text-center"></p>
     </div>
-
-    <footer class="text-center"></footer>
-  <p class="cus-footer"text-color="">&copy; 2025 VOTECHAIN. All rights reserved.</p>
-</footer> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="../dist/app.bundle.js" type="module"></script>
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+  <script src="../dist/app.bundle.js"></script>
   </body>
-  
 </html>
