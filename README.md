@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d7e3433a-a87c-491d-84bc-1abff458d847)### VoteChain - A Decentralized Voting Platform on Ethereum Blockchain 🗳️
+### VoteChain - A Decentralized Voting Platform on Ethereum Blockchain 🗳️
 
 VoteChain is an innovative and secure decentralized voting system built on the Ethereum blockchain. This platform is designed to ensure transparency, trust, and immutability in the voting process while maintaining voter anonymity. By leveraging blockchain technology, VoteChain eliminates fraud and guarantees tamper-proof election records.
 
@@ -136,7 +136,8 @@ Follow these steps to set up the VoteChain system:
 
 ![Admin Page](![image](https://github.com/user-attachments/assets/113f1f10-2eba-4e06-b3e8-a4e4fc4281d8)
 )  
-![Voter Page](![image](https://github.com/user-attachments/assets/dd7d0e15-6912-4645-9b89-5b85da30b710)
+![Voter Page](![image](https://github-production-user-asset-6210df.s3.amazonaws.com/22188882/439541269-6768e029-c0c6-4ea8-bb1d-5f179efbceb6.png)
+
 )
 
 ---
